@@ -1,8 +1,10 @@
-import * as THREE from 'three';
-import { OrbitControls } from 'https://unpkg.com/three@0.161.0/examples/jsm/controls/OrbitControls.js?module';
-import { EffectComposer } from 'https://unpkg.com/three@0.161.0/examples/jsm/postprocessing/EffectComposer.js?module';
-import { RenderPass } from 'https://unpkg.com/three@0.161.0/examples/jsm/postprocessing/RenderPass.js?module';
-import { GlitchPass } from 'https://unpkg.com/three@0.161.0/examples/jsm/postprocessing/GlitchPass.js?module';
+
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.161.0/+esm';
+import { OrbitControls }  from 'https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/controls/OrbitControls.js';
+import { EffectComposer } from 'https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/postprocessing/EffectComposer.js';
+import { RenderPass }     from 'https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/postprocessing/RenderPass.js';
+import { GlitchPass }     from 'https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/postprocessing/GlitchPass.js';
+
 
 const canvas = document.getElementById('ants3d');
 const scene = new THREE.Scene();
